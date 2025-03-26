@@ -322,7 +322,7 @@ class ScormWrapper {
       this.handleConnectionError();
       return;
     }
-
+    this.setSessionTime();
     this.finishCalled = true;
 
     if (this.timedCommitIntervalID !== null) {
@@ -338,7 +338,7 @@ class ScormWrapper {
       this.logOutputWin.close();
     }
 
-    this.setSessionTime();
+    
     this.setExitState();
 
     if (this._connection) {
