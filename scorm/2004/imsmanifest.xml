@@ -23,11 +23,11 @@
                     <adlnav:navigationInterface>
                         <adlnav:hideLMSUI>previous</adlnav:hideLMSUI>
                         <adlnav:hideLMSUI>continue</adlnav:hideLMSUI>
-                        <adlnav:hideLMSUI>exit</adlnav:hideLMSUI>
-                        <adlnav:hideLMSUI>exitAll</adlnav:hideLMSUI>
+                        <!-- <adlnav:hideLMSUI>exit</adlnav:hideLMSUI>
+                        <adlnav:hideLMSUI>exitAll</adlnav:hideLMSUI> -->
                         <adlnav:hideLMSUI>abandon</adlnav:hideLMSUI>
                         <adlnav:hideLMSUI>abandonAll</adlnav:hideLMSUI>
-                        <adlnav:hideLMSUI>suspendAll</adlnav:hideLMSUI>
+                        <!-- <adlnav:hideLMSUI>suspendAll</adlnav:hideLMSUI> -->
                     </adlnav:navigationInterface>
                 </adlnav:presentation>
             </item>
